@@ -95,8 +95,8 @@ button {
 st.markdown(button_style, unsafe_allow_html=True)
 
 # FastAPI endpoints
-API_URL_SINGLE = "http://127.0.0.1:8000/predict-single/"
-API_URL_MULTIPLE = "http://127.0.0.1:8000/predict-multiple/"
+API_URL_SINGLE = "https://star-type-predictor-izpk.onrender.com/predict-single/"
+API_URL_MULTIPLE = "https://star-type-predictor-izpk.onrender.com/predict-multiple/"
 
 # Title and description
 st.title("Star Type Predictor 💫")
